@@ -26,3 +26,14 @@
     spring.security.oauth2.client.registration.keycloak.client-secret=YOUR_CLIENT_SECRET
     # Add other properties
     ```
+## Connect to Keycloak
+
+1. Secure Endpoints:
+- Use Spring Security annotations:
+    ```
+    @GetMapping("/secured-endpoint")
+    @PreAuthorize("hasRole('ROLE_USER')")
+    public String securedEndpoint() {
+        return "Secured!";
+    }
+    ```
