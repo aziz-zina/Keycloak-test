@@ -43,3 +43,7 @@
 ## Resources
 - Spring Security Docs: https://docs.spring.io/spring-security/reference/html5/
 - Keycloak Docs: https://www.keycloak.org/documentation.html
+
+<hr>
+
+Adjust configurations to match your setup.
