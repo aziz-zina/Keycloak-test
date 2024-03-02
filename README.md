@@ -37,3 +37,9 @@
         return "Secured!";
     }
     ```
+2. Run Your App:
+- Start the app, navigate to the secured endpoint, and Keycloak handles authentication.
+
+## Resources
+- Spring Security Docs: https://docs.spring.io/spring-security/reference/html5/
+- Keycloak Docs: https://www.keycloak.org/documentation.html
