@@ -9,7 +9,7 @@
 1. Keycloak Client Setup:
 - Create a Keycloak client and note the ID and secret.
 2. Spring Boot Configuration:
-- Add dependencies in **`pom.xml`**:
+- Add dependencies in **```** pom.xml`**:
     ```
       <dependency>
       <groupId>org.springframework.boot</groupId>
