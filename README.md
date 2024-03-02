@@ -11,12 +11,18 @@
 2. Spring Boot Configuration:
 - Add dependencies in **pom.xml**:
     ```
-      <dependency>
-      <groupId>org.springframework.boot</groupId>
-      <artifactId>spring-boot-starter-oauth2-client</artifactId>
-      </dependency>
-      <dependency>
-          <groupId>org.springframework.boot</groupId>
-          <artifactId>spring-boot-starter-security</artifactId>
-      </dependency>
+    <dependency>
+        <groupId>org.springframework.boot</groupId>
+        <artifactId>spring-boot-starter-oauth2-client</artifactId>
+    </dependency>
+    <dependency>
+        <groupId>org.springframework.boot</groupId>
+        <artifactId>spring-boot-starter-security</artifactId>
+    </dependency>
+    ```
+- Configure **application.properties** or **application.yml**:
+    ```
+    spring.security.oauth2.client.registration.keycloak.client-id=YOUR_CLIENT_ID
+    spring.security.oauth2.client.registration.keycloak.client-secret=YOUR_CLIENT_SECRET
+    # Add other properties
     ```
