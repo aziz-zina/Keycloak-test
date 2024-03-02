@@ -30,10 +30,17 @@
 
 1. Secure Endpoints:
 - Use Spring Security annotations:
-    ```
-    @GetMapping("/secured-endpoint")
-    @PreAuthorize("hasRole('ROLE_USER')")
-    public String securedEndpoint() {
-        return "Secured!";
-    }
-    ```
+    #!/bin/bash
+
+# Define color codes
+GREEN='\033[0;32m'
+CYAN='\033[0;36m'
+RESET='\033[0m'
+
+# Colored code example
+echo -e "${GREEN}@GetMapping(\"${CYAN}/secured-endpoint${GREEN}\")"
+echo -e "${GREEN}@PreAuthorize(\"${CYAN}hasRole('ROLE_USER')${GREEN}\")"
+echo -e "${GREEN}public String securedEndpoint() {"
+echo -e "    return \"Secured!\";"
+echo -e "}"
+echo -e "${RESET}"
